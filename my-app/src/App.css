@@ -1,0 +1,139 @@
+/* src/App.css */
+
+/* 追加：全体の色を明示（Viteの初期CSSの影響を打ち消す） */
+body {
+  background: #111827;
+  /* 画面の外側を暗く */
+}
+
+.container {
+  color: #111827;
+  /* 文字色を黒寄りに */
+}
+
+.card {
+  color: #0f172a;
+  /* slate-900 */
+}
+
+
+/* 入力欄とボタンも明示 */
+.input {
+  background: #ffffff;
+  color: #0f172a;
+  border: 1px solid #94a3b8;
+  /* 少し濃く */
+}
+
+
+.btn {
+  color: #0f172a;
+  background: #e5e7eb;
+  /* gray-200 */
+  border: 1px solid #94a3b8;
+}
+
+
+:root {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans JP", sans-serif;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 640px;
+  margin: 40px auto;
+  padding: 0 16px;
+}
+
+.card {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 16px;
+  background: #fff;
+}
+
+.title {
+  margin: 0 0 12px;
+  font-size: 28px;
+}
+
+.row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.input {
+  flex: 1;
+  padding: 10px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  outline: none;
+}
+
+.input:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2);
+}
+
+.btn {
+  padding: 10px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  background: #f9fafb;
+  cursor: pointer;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 16px 0 0;
+  display: grid;
+  gap: 10px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 12px;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+}
+
+.itemLeft {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+}
+
+.text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.done {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.badge {
+  background: #e0e7ff;
+  border-color: #a5b4fc;
+  color: #1e3a8a;
+}
+
+
+.btn.danger {
+  background: #fee2e2;
+  border-color: #fca5a5;
+  color: #7f1d1d;
+}
