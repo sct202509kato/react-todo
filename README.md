@@ -1,4 +1,4 @@
-# 📌 Todo App（React / TypeScript）
+# 📌 Todoアプリ（React / TypeScript）
 React と TypeScript を用いて作成した Todo アプリです。
 
 フォーム入力、状態管理、一覧表示、完了管理など、React の基本的なデータフローを一通り実装しました。
@@ -22,8 +22,11 @@ localStorage によるデータ保存（リロード後も保持）
 
 ## 🛠 使用技術
 React
+
 TypeScript
+
 Vite
+
 CSS（シンプルなコンポーネント設計）
 
 ## 🧠 工夫した点・学んだこと
