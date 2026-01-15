@@ -3,8 +3,7 @@ React と TypeScript を用いて作成した Todo アプリです。
 フォーム入力、状態管理、一覧表示、完了管理など、React の基本的なデータフローを一通り実装しました。
 
 ## Screenshot
-![Todo App](<img width="300" height="260" alt="スクリーンショット 2026-01-14 232236" src="https://github.com/user-attachments/assets/79901927-a3eb-4cce-b8d2-9217d2596b1d" />)
-
+<img width="300" height="260" alt="スクリーンショット 2026-01-14 232236" src="https://github.com/user-attachments/assets/79901927-a3eb-4cce-b8d2-9217d2596b1d" />
 
 ## 🔗 Demo
 https://sct202509kato.github.io/react-todo/
